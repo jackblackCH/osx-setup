@@ -13,5 +13,8 @@
 - `$ brew installl reattach-to-user-namespace`
 - `$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
+## Configs
+- Set Custom Configs: TBD: .dotfiles
+
 ## Credits
 - http://www.drbunsen.org/the-text-triumvirate/
