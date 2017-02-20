@@ -1,6 +1,11 @@
-# OSX Setup
+# OSX Developer Setup
 
-## Installs brew, git, MacVim, tmux, retach-to-user-namespace
+## Docker
+- `$ brew install docker`
+- `$ brew install docker-compose`
+- `$ brew install docker-machine`
+
+## brew, git, MacVim, tmux, retach-to-user-namespace
 - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `$ brew install git`
 - `$ brew install MacVim`
