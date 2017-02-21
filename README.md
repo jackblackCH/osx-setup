@@ -1,18 +1,18 @@
 # OSX Developer Setup
 
-
-
-## Docker
-- `$ brew install docker`
-- `$ brew install docker-compose`
-- `$ brew install docker-machine`
-
-## Pathogen
-
-https://github.com/tpope/vim-pathogen
+## Applications
 ```
-$ cd vim-colors-solarized/colors
-$ mv solarized.vim ~/.vim/colors/
+$ brew cask install docker
+$ brew cask install docker-compose
+$ brew cask install docker-machine
+$ brew cask install atom
+$ brew cask install dropbox
+$ brew cask install firefox
+$ brew cask install google-chrome
+$ brew cask install spotify
+$ brew cask install sublime-text3
+$ brew cask install virtualbox
+$ brew cask install vlc
 ```
 
 ## brew, git, MacVim, tmux, retach-to-user-namespace
@@ -22,6 +22,15 @@ $ mv solarized.vim ~/.vim/colors/
 - `$ brew install tmux`
 - `$ brew installl reattach-to-user-namespace`
 - `$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+
+## Pathogen
+
+https://github.com/tpope/vim-pathogen
+```
+$ cd vim-colors-solarized/colors
+$ mv solarized.vim ~/.vim/colors/
+```
 
 ## Configs
 - Set Custom Configs: TBD: .dotfiles
