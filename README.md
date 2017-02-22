@@ -2,8 +2,8 @@
 
 ## SSH
 `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
-- github: https://github.com/settings/keys
-- bitbucked: https://bitbucket.org/account/user/<user>/ssh-keys/
+- [github](https://github.com/settings/keys)
+- [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
 ## brew, git, vim, tmux...
 ```
