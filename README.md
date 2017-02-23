@@ -5,12 +5,16 @@
 - [github](https://github.com/settings/keys)
 - [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
+##
+
 ## brew, git, vim, tmux...
 ```
+
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 $ sudo chown -R `whoami` /usr/local
-
+$ cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
+$ git clone https://github.com/djui/alias-tips.git
 $ brew install git
 $ brew install MacVim
 $ brew install tmux
@@ -44,3 +48,4 @@ $ mv solarized.vim ~/.vim/colors/
 
 ## Credits
 - http://www.drbunsen.org/the-text-triumvirate/
+- https://github.com/djui/alias-tips
