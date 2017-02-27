@@ -48,5 +48,6 @@ $ mv solarized.vim ~/.vim/colors/
 - Set Custom Configs: TBD: .dotfiles
 
 ## Credits
+- https://github.com/thoughtbot/rcm
 - http://www.drbunsen.org/the-text-triumvirate/
 - https://github.com/djui/alias-tips
