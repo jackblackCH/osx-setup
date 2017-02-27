@@ -45,9 +45,11 @@ $ mv solarized.vim ~/.vim/colors/
 ```
 
 ## Configs
-- `$ brew tap thoughtbot/formulae`
-- `$ brew install rcm`
-- `$ rcub -v`
+```
+$ brew tap thoughtbot/formulae
+$ brew install rcm
+$ rcub -v
+```
 
 ## Credits
 - https://github.com/thoughtbot/rcm
