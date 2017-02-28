@@ -21,6 +21,11 @@ $ brew install tmux
 $ brew installl reattach-to-user-namespace
 ```
 
+## Atom
+```
+$ apm install react
+```
+
 ## Applications
 ```
 $ brew cask install docker
