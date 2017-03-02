@@ -13,18 +13,17 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 $ sudo chown -R `whoami` /usr/local
 $ cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
 $ git clone https://github.com/djui/alias-tips.git
+```
+
+## Brew Tools
+```
 $ brew install git
 $ brew install MacVim
 $ brew install tmux
 $ brew installl reattach-to-user-namespace
 ```
 
-## Atom
-```
-$ apm install react
-```
-
-## Applications
+## Cask Applications
 ```
 $ brew cask install docker
 $ brew cask install docker-compose
@@ -37,6 +36,11 @@ $ brew cask install google-chrome
 $ brew cask install spotify
 $ brew cask install virtualbox
 $ brew cask install vlc
+```
+
+## Atom
+```
+$ apm install react
 ```
 
 ## Pathogen
