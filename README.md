@@ -5,7 +5,6 @@
 - [github](https://github.com/settings/keys)
 - [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
-##
 
 ## brew, git, vim, tmux...
 ```
@@ -56,6 +55,7 @@ $ rcub -v
 ```
 
 ## Credits
+- https://github.com/rupa/z/wiki
 - https://github.com/thoughtbot/rcm
 - http://www.drbunsen.org/the-text-triumvirate/
 - https://github.com/djui/alias-tips
