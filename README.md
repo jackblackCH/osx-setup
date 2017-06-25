@@ -41,8 +41,8 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install iterm2
-brew cask install pycharm
 brew cask install phpstorm
+brew cask install pycharm
 brew cask install virtualbox
 brew cask install vlc
 brew cask install slack
