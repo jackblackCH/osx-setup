@@ -40,6 +40,7 @@ brew cask install spotify
 brew cask install virtualbox
 brew cask install vlc
 brew cask install slack
+brew cask install alfred
 ```
 
 ## Atom
