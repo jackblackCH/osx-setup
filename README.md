@@ -68,6 +68,9 @@ brew install rcm
 mkdir ~/.dotfiles
 git clone git@github.com:jackblackCH/.dotfiles.git .
 rcub -v
+
+git config --global user.name "Marc Illien"
+git config --global user.email "marc.illien@siroop.ch"
 ```
 
 ## Credits
