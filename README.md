@@ -22,26 +22,26 @@ TODO: Command to install siroop font: https://www.fontsquirrel.com/fonts/roboto
 
 ## Brew Tools
 ```
-$ brew install git
-$ brew install MacVim
-$ brew install tmux
-$ brew installl reattach-to-user-namespace
+brew install git
+brew install MacVim
+brew install tmux
+brew installl reattach-to-user-namespace
 ```
 
 ## Cask Applications
 ```
-$ brew cask install docker
-$ brew cask install docker-compose
-$ brew cask install docker-machine
-$ brew cask install atom
-$ brew cask install visual-studio-code
-$ brew cask install dropbox
-$ brew cask install firefox
-$ brew cask install google-chrome
-$ brew cask install spotify
-$ brew cask install virtualbox
-$ brew cask install vlc
-$ brew cask install slack
+brew cask install docker
+brew cask install docker-compose
+brew cask install docker-machine
+brew cask install atom
+brew cask install visual-studio-code
+brew cask install dropbox
+brew cask install firefox
+brew cask install google-chrome
+brew cask install spotify
+brew cask install virtualbox
+brew cask install vlc
+brew cask install slack
 ```
 
 ## Atom
@@ -53,8 +53,8 @@ $ apm install react
 
 https://github.com/tpope/vim-pathogen
 ```
-$ cd vim-colors-solarized/colors
-$ mv solarized.vim ~/.vim/colors/
+cd vim-colors-solarized/colors
+mv solarized.vim ~/.vim/colors/
 ```
 
 ## Configs
