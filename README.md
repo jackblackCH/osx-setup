@@ -35,6 +35,7 @@ brew cask install appcleaner
 brew cask install atom
 brew cask install cheatsheet
 brew cask install docker
+brew cask install docker-toolbox
 brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
