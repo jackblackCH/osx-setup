@@ -30,17 +30,20 @@ brew install reattach-to-user-namespace
 
 ## Cask Applications
 ```
-brew cask install docker
+brew cask install alfred
+brew cask install appcleaner
 brew cask install atom
-brew cask install visual-studio-code
+brew cask install cheatsheet
+brew cask install docker
 brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
-brew cask install spotify
+brew cask install google-drive
 brew cask install virtualbox
 brew cask install vlc
 brew cask install slack
-brew cask install alfred
+brew cask install spotify
+brew cask install visual-studio-code
 ```
 
 ## Atom
