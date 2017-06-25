@@ -25,7 +25,7 @@ TODO: Command to install siroop font: https://www.fontsquirrel.com/fonts/roboto
 brew install git
 brew install MacVim
 brew install tmux
-brew installl reattach-to-user-namespace
+brew install reattach-to-user-namespace
 ```
 
 ## Cask Applications
