@@ -31,8 +31,6 @@ brew install reattach-to-user-namespace
 ## Cask Applications
 ```
 brew cask install docker
-brew cask install docker-compose
-brew cask install docker-machine
 brew cask install atom
 brew cask install visual-studio-code
 brew cask install dropbox
