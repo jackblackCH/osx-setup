@@ -1,18 +1,20 @@
 # macOS Developer Setup
 
 ## SSH
-`$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+`cat ~/.ssh/id_rsa.pub | pbcopy`
+
 - [github](https://github.com/settings/keys)
 - [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
 
 ## brew, git, vim, tmux...
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-$ sudo chown -R `whoami` /usr/local
-$ cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
-$ git clone https://github.com/djui/alias-tips.git
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chown -R `whoami` /usr/local
+cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
+git clone https://github.com/djui/alias-tips.git
 ```
 
 ## Custom Stuff
