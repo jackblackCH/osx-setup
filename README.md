@@ -44,7 +44,7 @@ brew cask install slack
 
 ## Atom
 ```
-$ apm install react
+apm install react
 ```
 
 ## Pathogen
@@ -57,9 +57,9 @@ mv solarized.vim ~/.vim/colors/
 
 ## Configs
 ```
-$ brew tap thoughtbot/formulae
-$ brew install rcm
-$ rcub -v
+brew tap thoughtbot/formulae
+brew install rcm
+rcub -v
 ```
 
 ## Credits
