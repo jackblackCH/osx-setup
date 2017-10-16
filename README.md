@@ -1,4 +1,4 @@
-# macOS Developer Setup
+#  macOS Developer Setup
 
 ## SSH
 - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
