@@ -3,7 +3,6 @@
 ## SSH
 - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 - `cat ~/.ssh/id_rsa.pub | pbcopy`
-
 - [github](https://github.com/settings/keys)
 - [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
