@@ -53,14 +53,6 @@ brew cask install visual-studio-code
 apm install react
 ```
 
-## Pathogen
-
-https://github.com/tpope/vim-pathogen
-```
-cd vim-colors-solarized/colors
-mv solarized.vim ~/.vim/colors/
-```
-
 ## Configs
 ```
 brew tap thoughtbot/formulae
