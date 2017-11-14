@@ -16,8 +16,7 @@ cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
 git clone https://github.com/djui/alias-tips.git
 ```
 
-## Custom Stuff
-TODO: Command to install siroop font: https://www.fontsquirrel.com/fonts/roboto
+https://github.com/powerline/fonts
 
 ## Brew Tools
 ```
