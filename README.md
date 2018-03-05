@@ -46,6 +46,7 @@ brew cask install vlc
 brew cask install slack
 brew cask install spotify
 brew cask install visual-studio-code
+brew cask install hyper
 ```
 
 ## Atom
@@ -64,6 +65,9 @@ rcup -v
 git config --global user.name "Marc Illien"
 git config --global user.email "marc.illien@siroop.ch"
 ```
+
+## Custom needs
+`defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false`
 
 ## Credits
 - https://github.com/rupa/z/wiki
