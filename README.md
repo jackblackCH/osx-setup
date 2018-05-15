@@ -58,7 +58,7 @@ apm install react
 ```
 brew tap thoughtbot/formulae
 brew install rcm
-mkdir ~/.dotfiles
+mkdir ~/.dotfiles && cd ~/.dotfiles
 git clone git@github.com:jackblackCH/.dotfiles.git .
 rcup -v
 
