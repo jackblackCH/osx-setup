@@ -45,6 +45,9 @@ brew cask install hyper
 ```
 
 ## Configs
+RCM is a .dotfile manager that allows to auto-symlink a directory and those files into your userhome.
+Basically to store and apply your configs in a .dotfile repository.
+
 ```
 brew tap thoughtbot/formulae
 brew install rcm
