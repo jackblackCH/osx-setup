@@ -49,11 +49,6 @@ brew cask install visual-studio-code
 brew cask install hyper
 ```
 
-## Atom
-```
-apm install react
-```
-
 ## Configs
 ```
 brew tap thoughtbot/formulae
@@ -63,7 +58,7 @@ git clone git@github.com:jackblackCH/.dotfiles.git .
 rcup -v
 
 git config --global user.name "Marc Illien"
-git config --global user.email "marc.illien@siroop.ch"
+git config --global user.email "marc.illien@gmail.com"
 ```
 
 ## Custom needs
