@@ -29,18 +29,13 @@ brew install reattach-to-user-namespace
 ## Cask Applications
 ```
 brew cask install alfred
-brew cask install appcleaner
-brew cask install atom
 brew cask install cheatsheet
 brew cask install docker
 brew cask install docker-toolbox
-brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install iterm2
-brew cask install phpstorm
-brew cask install pycharm
+brew cask install webstorm
 brew cask install virtualbox
 brew cask install vlc
 brew cask install slack
