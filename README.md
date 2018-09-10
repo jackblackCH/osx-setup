@@ -66,3 +66,6 @@ git config --global user.email "marc.illien@gmail.com"
 - https://github.com/thoughtbot/rcm
 - http://www.drbunsen.org/the-text-triumvirate/
 - https://github.com/djui/alias-tips
+
+## Custom Software
+- Affinty Photo
