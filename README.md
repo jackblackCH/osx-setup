@@ -36,17 +36,14 @@ brew install reattach-to-user-namespace
 ## Install Software/Applications via Brew
 ```
 brew cask install alfred
-brew cask install cheatsheet
 brew cask install docker
 brew cask install docker-toolbox
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install webstorm
 brew cask install virtualbox
 brew cask install vlc
 brew cask install slack
-brew cask install spotify
 brew cask install visual-studio-code
 brew cask install hyper
 ```
