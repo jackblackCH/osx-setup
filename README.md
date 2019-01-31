@@ -2,8 +2,8 @@
 
 ## SSH
 - `ssh-keygen -t rsa -b 4096 -C "<your_mail_address" && cat ~/.ssh/id_rsa.pub | pbcopy`
-- [Copy key to github](https://github.com/settings/keys)
-- [Copy key to bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
+- Copy key to [github](https://github.com/settings/keys)
+- Copy key to [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
 
 ## Package Managers and Shell
