@@ -6,11 +6,18 @@
 - [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
 
-## brew, git, vim, tmux...
+## Package Managers and Shell
 ```
+# Install Homebrew (THE Package Manager)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Oh my zShell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Set the owner of `/usr/local` to your user (Default dir of Frontend eco system (node, npm etc)
 sudo chown -R `whoami` /usr/local
+
+# A an alias helper plugin
 cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
 git clone https://github.com/djui/alias-tips.git
 ```
@@ -25,7 +32,7 @@ brew install tmux
 brew install reattach-to-user-namespace
 ```
 
-## Cask Applications
+## Install Software/Applications via Brew
 ```
 brew cask install alfred
 brew cask install cheatsheet
@@ -44,8 +51,8 @@ brew cask install hyper
 ```
 
 ## Configs
-RCM is a .dotfile manager that allows to auto-symlink a directory and those files into your userhome.
-Basically to store and apply your configs in a .dotfile repository.
+RCM is a .dotfile manager that allows to auto-symlink a directory with dotfiles into your userhome (where they belong to).
+This enables you to in a clean way to store/manage your user configurations in a repository (mostly dotfiles) 
 
 ```
 brew tap thoughtbot/formulae
@@ -66,6 +73,3 @@ git config --global user.email "marc.illien@gmail.com"
 - https://github.com/thoughtbot/rcm
 - http://www.drbunsen.org/the-text-triumvirate/
 - https://github.com/djui/alias-tips
-
-## Custom Software
-- Affinty Photo
