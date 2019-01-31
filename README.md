@@ -22,6 +22,7 @@ cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
 git clone https://github.com/djui/alias-tips.git
 ```
 
+## Developer friendly fonts
 https://github.com/powerline/fonts
 
 ## Brew Tools
