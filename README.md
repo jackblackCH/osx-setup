@@ -8,7 +8,7 @@
 
 ## Package Managers and Shell
 ```
-# Install Homebrew (THE Package Manager)
+# Install Homebrew (Most supported and stable Package Manager)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install Oh my zShell
