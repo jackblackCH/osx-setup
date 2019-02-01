@@ -49,6 +49,21 @@ brew cask install vlc
 brew cask install slack
 brew cask install visual-studio-code
 brew cask install hyper
+
+# VSCode Plugins
+code --install-extension bierner.lit-html
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dracula-theme.theme-dracula
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension mauve.terraform
+code --install-extension mrmlnc.vscode-scss
+code --install-extension ms-python.python
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension Prisma.vscode-graphql
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension WallabyJs.quokka-vscode
 ```
 
 ## Configs
