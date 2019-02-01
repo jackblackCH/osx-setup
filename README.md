@@ -63,6 +63,15 @@ git config --global user.name "Marc Illien"
 git config --global user.email "marc.illien@gmail.com"
 ```
 
+## Custom Sylinks for setting/dotfiles which do not belong into userhome
+```
+# VSCode
+ln -s ~/.dotfiles/VSCode/settings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dotfiles/.dotfiles/VSCode/keybindings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/.dotfiles/.dotfiles/VSCode/snippets/ /Users/pawelgrzybek/Library/Application\ Support/Code/User/snippets
+```
+
+
 ## Custom needs
 `defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false`
 
