@@ -1,10 +1,10 @@
-#  macOS Developer Setup
+ macOS Developer Setup
+=======================
 
 ## SSH
 - `ssh-keygen -t rsa -b 4096 -C "<your_mail_address>" && cat ~/.ssh/id_rsa.pub | pbcopy`
 - Copy key to [github](https://github.com/settings/keys)
 - Copy key to [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
-
 
 ## Package Managers and Shell
 ```
@@ -13,9 +13,10 @@
 
 # Set the owner of `/usr/local` to your user (Default dir of Frontend eco system (node, npm etc)
 sudo chown -R `whoami` /usr/local
+```
 
-## Extras
-
+## Shell Addons
+```
 # Oh my zShell (Useful and widely used shell extensions)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
