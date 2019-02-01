@@ -67,8 +67,8 @@ git config --global user.email "marc.illien@gmail.com"
 ```
 # VSCode
 ln -s ~/.dotfiles/VSCode/settings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/settings.json
-ln -s ~/.dotfiles/.dotfiles/VSCode/keybindings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/.dotfiles/.dotfiles/VSCode/snippets/ /Users/pawelgrzybek/Library/Application\ Support/Code/User/snippets
+ln -s ~/.dotfiles/VSCode/keybindings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/.dotfiles/VSCode/snippets/ /Users/pawelgrzybek/Library/Application\ Support/Code/User/snippets
 ```
 
 
