@@ -65,7 +65,7 @@ git config --global user.name "Marc Illien"
 git config --global user.email "marc.illien@gmail.com"
 ```
 
-## Custom Sylinks for setting/dotfiles which do not belong into userhome
+## Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM
 ```
 # VSCode
 ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
