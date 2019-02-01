@@ -1,7 +1,7 @@
 #  macOS Developer Setup
 
 ## SSH
-- `ssh-keygen -t rsa -b 4096 -C "<your_mail_address" && cat ~/.ssh/id_rsa.pub | pbcopy`
+- `ssh-keygen -t rsa -b 4096 -C "<your_mail_address>" && cat ~/.ssh/id_rsa.pub | pbcopy`
 - Copy key to [github](https://github.com/settings/keys)
 - Copy key to [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
@@ -49,8 +49,8 @@ brew cask install hyper
 ```
 
 ## Configs
-RCM is a .dotfile manager that allows to auto-symlink a directory with dotfiles into your userhome (where they belong to).
-This enables you to in a clean way to store/manage your user configurations in a repository (mostly dotfiles) 
+RCM is a .dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to and read by the software).
+This enables you to maintain your custom settings within a repository 
 
 ```
 brew tap thoughtbot/formulae
