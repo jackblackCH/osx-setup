@@ -66,9 +66,9 @@ git config --global user.email "marc.illien@gmail.com"
 ## Custom Sylinks for setting/dotfiles which do not belong into userhome
 ```
 # VSCode
-ln -s ~/.dotfiles/VSCode/settings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/settings.json
-ln -s ~/.dotfiles/VSCode/keybindings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/.dotfiles/VSCode/snippets/ /Users/pawelgrzybek/Library/Application\ Support/Code/User/snippets
+ln -s ~/.dotfiles/VSCode/settings.json ~/.dotfiles/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dotfiles/VSCode/keybindings.json ~/.dotfiles/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/.dotfiles/VSCode/snippets/ ~/.dotfiles/Library/Application\ Support/Code/User/snippets
 ```
 
 
