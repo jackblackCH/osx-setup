@@ -62,8 +62,8 @@ mkdir ~/.dotfiles && cd ~/.dotfiles
 git clone git@github.com:jackblackCH/.dotfiles.git .
 rcup -v
 
-git config --global user.name "Marc Illien"
-git config --global user.email "marc.illien@gmail.com"
+git config --global user.name "<name>"
+git config --global user.email "<mail_address>"
 ```
 
 ## Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM
