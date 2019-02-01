@@ -11,13 +11,15 @@
 # Install Homebrew (Most supported and stable Package Manager)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install Oh my zShell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Set the owner of `/usr/local` to your user (Default dir of Frontend eco system (node, npm etc)
 sudo chown -R `whoami` /usr/local
 
-# A an alias helper plugin
+## Extras
+
+# Oh my zShell (Useful and widely used shell extensions)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# An alias helper, to show you hints for aliases
 cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
 git clone https://github.com/djui/alias-tips.git
 ```
