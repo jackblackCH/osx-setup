@@ -92,6 +92,7 @@ ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snip
 
 ## Custom needs
 `defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false`
+`defaults write -g ApplePressAndHoldEnabled -bool false` // Enables key repeat but disables custom char popup onkeyhold
 
 ## Credits
 - https://github.com/rupa/z/wiki
