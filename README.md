@@ -91,8 +91,10 @@ ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snip
 
 
 ## Custom needs
-`defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false`
-`defaults write -g ApplePressAndHoldEnabled -bool false`
+```
+defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
 
 ## Credits
 - https://github.com/rupa/z/wiki
