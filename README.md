@@ -19,10 +19,6 @@ sudo chown -R `whoami` /usr/local
 ```
 # Oh my zShell (Useful and widely used shell extensions)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# An alias helper, to show you hints for aliases
-cd ${ZSH_CUSTOM1:-$ZSH/custom}/plugins
-git clone https://github.com/djui/alias-tips.git
 ```
 
 ## Developer friendly fonts
