@@ -44,11 +44,11 @@ brew cask install docker-toolbox
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install hyper
+brew cask install slack
 brew cask install virtualbox
 brew cask install vlc
-brew cask install slack
 brew cask install visual-studio-code
-brew cask install hyper
 
 # VSCode Plugins
 code --install-extension bierner.lit-html
