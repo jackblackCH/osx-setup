@@ -57,10 +57,10 @@ code --install-extension WallabyJs.quokka-vscode
 
 ## Configs
 Setup Git default user and mail
-`
+```
 git config --global user.name "<name>"
 git config --global user.email "<mail_address>"
-`
+```
 
 ### RCM
 Is a .dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and auto-read by tools).
