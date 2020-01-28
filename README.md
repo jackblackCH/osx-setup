@@ -11,13 +11,11 @@
 # Install Homebrew (Most supported and stable Package Manager)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Set the owner of `/usr/local` to your user (Default dir of Frontend eco system (node, npm etc)
+# Set the owner of `/usr/local` and all sub dirs to your current user (Default dir of Frontend eco system (node, npm et
+# This allows you installing stuff without 'sudo'
 sudo chown -R `whoami` /usr/local
-```
 
-## Shell Addons
-```
-# Oh my zShell (Useful and widely used shell extensions)
+# Oh my zsh (Useful and widely used shell extension)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -57,24 +55,27 @@ code --install-extension mauve.terraform
 code --install-extension mrmlnc.vscode-scss
 code --install-extension ms-python.python
 code --install-extension ms-vsliveshare.vsliveshare
-code --install-extension Prisma.vscode-graphql
-code --install-extension robertohuertasm.vscode-icons
 code --install-extension WallabyJs.quokka-vscode
 ```
 
 ## Configs
-RCM is a .dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to and read by the software).
-This enables you to maintain your custom settings within a repository 
+Setup Git default user and mail
+`
+git config --global user.name "<name>"
+git config --global user.email "<mail_address>"
+`
 
+### RCM
+Is a .dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and auto-read by tools).
+This enables you to maintain your custom settings within a repository 
 ```
 brew tap thoughtbot/formulae
 brew install rcm
 mkdir ~/.dotfiles && cd ~/.dotfiles
 git clone git@github.com:jackblackCH/.dotfiles.git .
-rcup -v
 
-git config --global user.name "<name>"
-git config --global user.email "<mail_address>"
+# Let it symlink! That's it!
+rcup -v
 ```
 
 ## Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM
@@ -84,7 +85,6 @@ ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/
 ln -s ~/.dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
 ```
-
 
 ## Custom needs
 ```
