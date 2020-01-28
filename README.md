@@ -62,8 +62,8 @@ git config --global user.name "<name>"
 git config --global user.email "<mail_address>"
 ```
 
-### Configs backup. RCM
-Is a .dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and auto-read by tools).
+### Configs backup. 
+RCM is a dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and are auto-read by tools).
 This enables you to maintain your custom settings within a repository 
 ```
 brew tap thoughtbot/formulae
@@ -74,8 +74,8 @@ git clone git@github.com:jackblackCH/.dotfiles.git .
 # Let it symlink! That's it!
 rcup -v
 
-### Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM
-# VSCode
+# Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM. 
+# Tools: VSCode
 ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -s ~/.dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
