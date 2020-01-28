@@ -62,7 +62,7 @@ git config --global user.name "<name>"
 git config --global user.email "<mail_address>"
 ```
 
-### RCM
+### Configs backup. RCM
 Is a .dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and auto-read by tools).
 This enables you to maintain your custom settings within a repository 
 ```
@@ -73,10 +73,8 @@ git clone git@github.com:jackblackCH/.dotfiles.git .
 
 # Let it symlink! That's it!
 rcup -v
-```
 
-## Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM
-```
+### Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM
 # VSCode
 ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -s ~/.dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
@@ -89,7 +87,7 @@ defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
-## Credits
+## Resources
 - Developer friendly fonts https://github.com/powerline/fonts
 - Z Script: auto change dirs based on recent keys: https://github.com/rupa/z/wiki
 - dotfiles manager https://github.com/thoughtbot/rcm
