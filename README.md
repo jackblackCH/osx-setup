@@ -19,9 +19,6 @@ sudo chown -R `whoami` /usr/local
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## Developer friendly fonts
-https://github.com/powerline/fonts
-
 ## Brew Tools
 ```
 brew install git
@@ -93,7 +90,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
 ## Credits
-- https://github.com/rupa/z/wiki
-- https://github.com/thoughtbot/rcm
-- http://www.drbunsen.org/the-text-triumvirate/
-- https://github.com/djui/alias-tips
+- Developer friendly fonts https://github.com/powerline/fonts
+- Z Script: auto change dirs based on recent keys: https://github.com/rupa/z/wiki
+- dotfiles manager https://github.com/thoughtbot/rcm
+- VIM and tmux http://www.drbunsen.org/the-text-triumvirate/
+- Force alias usage https://github.com/djui/alias-tips
