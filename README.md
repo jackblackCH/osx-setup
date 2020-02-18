@@ -3,7 +3,7 @@
 
 ## SSH
 Set some vars we will reuse:
-`GITHUB_MAIL=<your_email_address>'
+`GITHUB_MAIL=<your_email_address>`
 `GITHUB_NAME=<your_name>`
 
 - `ssh-keygen -t rsa -b 4096 -C "<your_mail_address>" && cat ~/.ssh/id_rsa.pub | pbcopy`
