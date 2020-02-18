@@ -34,7 +34,6 @@ brew cask install docker
 brew cask install docker-toolbox
 brew cask install firefox
 brew cask install google-chrome
-brew cask install google-drive
 brew cask install hyper
 brew cask install slack
 brew cask install virtualbox
