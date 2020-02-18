@@ -6,8 +6,8 @@ Set some vars we will reuse:
 ```
 EMAIL=<your_email_address>
 FULLNAME=<your_fullname>
-GITHUB_EMAIL=EMAIL
-GITHUB_FULLNAME=FULLNAME
+GITHUB_EMAIL=$EMAIL
+GITHUB_FULL_NAME=$FULLNAME
 ```
 
 - `ssh-keygen -t rsa -b 4096 -C "$GITHUB_EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
@@ -67,8 +67,8 @@ code --install-extension WallabyJs.quokka-vscode
 ## Configs
 Setup Git default user and mail
 ```
-git config --global user.name "<name>"
-git config --global user.email "<mail_address>"
+git config --global user.name "$GITHUB_FULL_NAME"
+git config --global user.email "$GITHUB_EMAIL"
 ```
 
 ### Configs backup. 
