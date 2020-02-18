@@ -89,6 +89,9 @@ defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
+## REBOOT
+- Shell colors and settings are only visible after a reboot. (may be optimised with a smarter shell reload command?)
+
 ## Resources
 - Developer friendly fonts https://github.com/powerline/fonts
 - Z Script: auto change dirs based on recent keys: https://github.com/rupa/z/wiki
