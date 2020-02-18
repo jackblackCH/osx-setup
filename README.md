@@ -10,7 +10,7 @@ GITHUB_EMAIL=$EMAIL
 GITHUB_FULL_NAME=$FULLNAME
 ```
 
-- `ssh-keygen -t rsa -b 4096 -C "$GITHUB_EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
+- `ssh-keygen -t rsa -b 4096 -C "$EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
 - Copy key to [github](https://github.com/settings/keys)
 - Copy key to [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
