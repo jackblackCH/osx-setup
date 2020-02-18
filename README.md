@@ -3,10 +3,14 @@
 
 ## SSH
 Set some vars we will reuse:
-- `GITHUB_EMAIL=<your_email_address>`
-- `GITHUB_FULLNAME=<your_name>`
+```
+EMAIL=<your_email_address>
+FULLNAME=<your_fullname>
+GITHUB_EMAIL=EMAIL
+GITHUB_FULLNAME=FULLNAME
+```
 
-- `ssh-keygen -t rsa -b 4096 -C "<your_mail_address>" && cat ~/.ssh/id_rsa.pub | pbcopy`
+- `ssh-keygen -t rsa -b 4096 -C "$GITHUB_EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
 - Copy key to [github](https://github.com/settings/keys)
 - Copy key to [bitbucked](https://bitbucket.org/account/user/<user>/ssh-keys/)
 
