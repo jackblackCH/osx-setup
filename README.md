@@ -13,7 +13,9 @@
 
 # Set the owner of `/usr/local` and all sub dirs to your current user (Default dir of Frontend eco system (node, npm et
 # This allows you installing stuff without 'sudo'
-sudo chown -R `whoami` /usr/local
+
+# not needed anymore but needed in older macOS < Catalina.
+# sudo chown -R `whoami` /usr/local 
 
 # Oh my zsh (Useful and widely used shell extension)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
