@@ -35,6 +35,7 @@ brew install git
 brew install MacVim
 brew install tmux
 brew install reattach-to-user-namespace
+brew install node
 ```
 
 ## Install Software/Applications via Brew
