@@ -40,18 +40,11 @@ brew install node
 
 ## Install Software/Applications via Brew
 ```
-brew cask install alfred
-brew cask install docker
-brew cask install docker-toolbox
-brew cask install firefox
-brew cask install google-chrome
-brew cask install hyper
-brew cask install slack
-brew cask install virtualbox
-brew cask install vlc
-brew cask install visual-studio-code
+brew cask install alfred docker firefox google-chrome hyper slack virtualbox visual-studio-code figma
+```
 
 # VSCode Plugins
+```
 code --install-extension bierner.lit-html
 code --install-extension cssho.vscode-svgviewer
 code --install-extension dbaeumer.vscode-eslint
