@@ -31,6 +31,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Brew Tools
 ```
+xcode-select --install
 brew install git
 brew install MacVim
 brew install tmux
@@ -45,17 +46,8 @@ brew cask install alfred docker firefox google-chrome hyper slack virtualbox vis
 
 # VSCode Plugins
 ```
-code --install-extension bierner.lit-html
-code --install-extension cssho.vscode-svgviewer
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension dracula-theme.theme-dracula
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
-code --install-extension mauve.terraform
-code --install-extension mrmlnc.vscode-scss
-code --install-extension ms-python.python
-code --install-extension ms-vsliveshare.vsliveshare
-code --install-extension WallabyJs.quokka-vscode
 ```
 
 ## Configs
