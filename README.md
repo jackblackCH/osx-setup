@@ -15,6 +15,9 @@ GITHUB_FULL_NAME=$FULLNAME
 
 ## Package Managers and Shell
 ```
+# XCode tools. Requirement for many other tools and automization stuff on macOS
+xcode-select --install
+
 # Install Homebrew (Most supported and stable Package Manager)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -30,7 +33,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Brew Tools
 ```
-xcode-select --install
 brew install git
 brew install MacVim
 brew install tmux
