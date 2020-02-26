@@ -41,7 +41,7 @@ brew install git tmux reattach-to-user-namespace node
 brew cask install alfred docker firefox google-chrome hyper slack virtualbox visual-studio-code figma
 ```
 
-# VSCode Plugins
+## VSCode Plugins
 ```
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
@@ -54,7 +54,7 @@ git config --global user.name "$GITHUB_FULL_NAME"
 git config --global user.email "$GITHUB_EMAIL"
 ```
 
-### Configs backup. 
+## Configs backup. 
 RCM is a dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and are auto-read by tools).
 This enables you to maintain your custom settings within a repository 
 ```
