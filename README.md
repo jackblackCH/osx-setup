@@ -11,8 +11,7 @@ GITHUB_FULL_NAME=$FULLNAME
 ```
 
 - `ssh-keygen -t rsa -b 4096 -C "$EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
-- Copy key to [GitHub](https://github.com/settings/keys)
-- Copy key to [GitLab](https://gitlab.com/profile/keys)
+- Copy key to [GitHub](https://github.com/settings/keys) and [GitLab](https://gitlab.com/profile/keys)
 
 ## Package Managers and Shell
 ```
