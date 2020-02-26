@@ -33,11 +33,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Brew Tools
 ```
-brew install git
-brew install MacVim
-brew install tmux
-brew install reattach-to-user-namespace
-brew install node
+brew install git tmux reattach-to-user-namespace node
 ```
 
 ## Install Software/Applications via Brew
