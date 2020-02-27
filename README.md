@@ -31,18 +31,15 @@ xcode-select --install
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## Brew Tools
+## Tools ans Applications
 ```
 brew install git tmux reattach-to-user-namespace node
-```
-
-## Install Software/Applications via Brew
-```
 brew cask install alfred docker firefox google-chrome hyper slack virtualbox visual-studio-code figma
 ```
 
-## VSCode Plugins
+## Plugins
 ```
+# VSCcode
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 ```
