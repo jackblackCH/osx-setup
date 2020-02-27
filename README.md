@@ -21,10 +21,9 @@ xcode-select --install
 # Install Homebrew (Most supported and stable Package Manager)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Set the owner of `/usr/local` and all sub dirs to your current user (Default dir of Frontend eco system (node, npm et
-# This allows you installing stuff without 'sudo'
-
-# not needed anymore but needed in older macOS < Catalina.
+# Set the owner of `/usr/local` and all sub directories to your current user (Default dir of Frontend eco system (node, npm)
+# Prevents obsessive usage of `sudo` for common cli usage.
+# Only needed for older macOS < Catalina.
 # sudo chown -R `whoami` /usr/local 
 
 # Oh my zsh (Useful and widely used shell extension)
