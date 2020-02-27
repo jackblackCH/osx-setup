@@ -51,7 +51,7 @@ git config --global user.name "$GITHUB_FULL_NAME"
 git config --global user.email "$GITHUB_EMAIL"
 ```
 
-## Configs backup. 
+## Dotfiles 
 RCM is a dotfile manager that allows you to auto-symlink a directory with your dotfiles into your userhome (where they mostly belong to, and are auto-read by tools).
 This enables you to maintain your custom settings within a repository 
 ```
