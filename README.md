@@ -18,13 +18,9 @@ GITHUB_FULL_NAME=$FULLNAME
 # XCode tools. Requirement for many other tools and automization stuff on macOS
 xcode-select --install
 
-# Install Homebrew (Most supported and stable Package Manager)
+# Install Homebrew (Most supported and stable Package Manager) and sets brew dirs owner to your current user
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Set the owner of `/usr/local` and all sub directories to your current user (Default dir of Frontend eco system (node, npm)
-# Prevents obsessive usage of `sudo` for common cli usage.
-# Only needed for older macOS < Catalina.
-# sudo chown -R `whoami` /usr/local 
+sudo chown -R $(whoami) $(brew --prefix)/*
 
 # Oh my zsh (Useful and widely used shell extension)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
