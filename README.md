@@ -32,7 +32,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## Tools ans Applications
 ```
 brew install git tmux reattach-to-user-namespace node
-brew cask install alfred docker firefox google-chrome hyper slack virtualbox visual-studio-code figma
+brew cask install alfred docker firefox google-chrome slack virtualbox visual-studio-code figma
 ```
 
 ## Plugins
