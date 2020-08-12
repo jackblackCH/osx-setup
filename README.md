@@ -1,6 +1,8 @@
  macOS Developer Setup
 =======================
 
+The minimum setup for developers to code on macOS.
+
 ## SSH
 Set some vars we will reuse:
 ```
