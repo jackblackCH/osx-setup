@@ -71,7 +71,6 @@ ln -s ~/.dotfiles/hyper.js ~/Library/Application\ Support/Hyper/.hyper.js
 
 ## Custom needs
 ```
-defaults write co.zeit.hyper ApplePressAndHoldEnabled -bool false
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
