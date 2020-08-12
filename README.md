@@ -8,9 +8,12 @@ EMAIL=<your_email_address>
 FULLNAME=<your_fullname>
 GITHUB_EMAIL=$EMAIL
 GITHUB_FULL_NAME=$FULLNAME
+GITHUB_KEY_TOKEN=
 ```
 
 - `ssh-keygen -t rsa -b 4096 -C "$EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
+- Add key to your github profile via token (generate a new key)
+` curl -H "Authorization: token GITHUB_KEY_TOKEN" -X POST --data '{"title":"KEYNAME","key": "ADD_KEY.pub"}' https://api.github.com/user/keys
 - Copy key to [GitHub](https://github.com/settings/keys) and [GitLab](https://gitlab.com/profile/keys)
 
 ## Package Managers and Shell
