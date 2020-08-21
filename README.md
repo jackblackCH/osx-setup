@@ -24,8 +24,7 @@ GITHUB_KEY_TOKEN=
 xcode-select --install
 
 # Install Homebrew (Most supported and stable Package Manager) and sets brew dirs owner to your current user
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-sudo chown -R $(whoami) $(brew --prefix)/*
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Oh my zsh (Useful and widely used shell extension)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
