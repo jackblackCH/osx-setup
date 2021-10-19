@@ -79,8 +79,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Shell colors and settings are only visible after a reboot. (may be optimised with a smarter shell reload command?)
 
 ## Resources
+- Cascadia Code Font: https://github.com/microsoft/cascadia-code
 - Developer friendly fonts https://github.com/powerline/fonts
-- Z Script: auto change dirs based on recent keys: https://github.com/rupa/z/wiki
 - dotfiles manager https://github.com/thoughtbot/rcm
 - VIM and tmux http://www.drbunsen.org/the-text-triumvirate/
-- Force alias usage https://github.com/djui/alias-tips
