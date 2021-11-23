@@ -82,3 +82,4 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Developer friendly fonts https://github.com/powerline/fonts
 - dotfiles manager https://github.com/thoughtbot/rcm
 - VIM and tmux http://www.drbunsen.org/the-text-triumvirate/
+- https://github.com/romkatv/powerlevel10k
