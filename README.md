@@ -33,7 +33,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## Tools ans Applications
 ```
 brew install git tmux reattach-to-user-namespace node
-brew cask install brave-browser alfred firefox slack visual-studio-code figma magnet iterm2
+brew cask install brave-browser alfred firefox slack visual-studio-code figma magnet iterm2 telegram
 ```
 
 ## Plugins
