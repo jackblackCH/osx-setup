@@ -83,3 +83,4 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - dotfiles manager https://github.com/thoughtbot/rcm
 - VIM and tmux http://www.drbunsen.org/the-text-triumvirate/
 - https://github.com/romkatv/powerlevel10k
+- https://github.com/mbadolato/iTerm2-Color-Schemes
