@@ -84,3 +84,5 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - VIM and tmux http://www.drbunsen.org/the-text-triumvirate/
 - https://github.com/romkatv/powerlevel10k
 - https://github.com/mbadolato/iTerm2-Color-Schemes
+- https://github.com/dsznajder/vscode-es7-javascript-react-snippets
+- https://github.com/tailwindlabs/tailwindcss-intellisense
