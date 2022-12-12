@@ -24,21 +24,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## Tools ans Applications
 ```
 brew install git tmux reattach-to-user-namespace node
-brew cask install brave-browser alfred firefox slack visual-studio-code figma magnet iterm2 telegram
-```
-
-## Plugins
-```
-# VSCcode
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
+brew install brave-browser alfred firefox slack visual-studio-code figma magnet iterm2 telegram --cask
 ```
 
 ## Configs
 Setup Git default user and mail
 ```
-git config --global user.name "$GITHUB_FULL_NAME"
-git config --global user.email "$GITHUB_EMAIL"
+git config --global user.name "<GITHUB_USERNAME>"
+git config --global user.email "<EMAIL>"
 ```
 
 ## Dotfiles 
