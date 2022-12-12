@@ -1,7 +1,7 @@
  macOS Developer Setup
 =======================
 
-The minimum setup for developers to code on macOS.
+An automated minimum setup for developers to code on macOS.
 
 ## SSH
 Set some vars we will reuse:
@@ -13,9 +13,8 @@ GITHUB_FULL_NAME=$FULLNAME
 GITHUB_KEY_TOKEN=
 ```
 
-- `ssh-keygen -t rsa -b 4096 -C "$EMAIL" && cat ~/.ssh/id_rsa.pub | pbcopy`
+- `ssh-keygen -t ed25519 -C "thedachkatze@gmail.com" && cat ~/.ssh/id_rsa.pub | pbcopy`
 - Add key via CLI to your github account with token
-- ```curl -H "Authorization: token $GITHUB_KEY_TOKEN" -X POST --data '{ "title": "MACBOOK PRO 16INCH LATE 2021", "key": "PASTE_KEY_FROM_CLIPBOARD"}' https://api.github.com/user/keys```
 - Or copy key to [GitHub](https://github.com/settings/keys) and [GitLab](https://gitlab.com/profile/keys)
 
 ## Package Managers and Shell
