@@ -4,14 +4,6 @@
 An automated minimum setup for developers to code on macOS.
 
 ## SSH
-Set some vars we will reuse:
-```
-EMAIL=<your_email_address>
-FULLNAME=<your_fullname>
-GITHUB_EMAIL=$EMAIL
-GITHUB_FULL_NAME=$FULLNAME
-GITHUB_KEY_TOKEN=
-```
 
 - `ssh-keygen -t ed25519 -C "<email>" && cat ~/.ssh/id_ed25519.pub | pbcopy`
 - Add key via CLI to your github account with token
