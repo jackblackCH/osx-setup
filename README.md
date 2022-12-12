@@ -13,7 +13,7 @@ GITHUB_FULL_NAME=$FULLNAME
 GITHUB_KEY_TOKEN=
 ```
 
-- `ssh-keygen -t ed25519 -C "thedachkatze@gmail.com" && cat ~/.ssh/id_rsa.pub | pbcopy`
+- `ssh-keygen -t ed25519 -C "<email>" && cat ~/.ssh/id_ed25519.pub | pbcopy`
 - Add key via CLI to your github account with token
 - Or copy key to [GitHub](https://github.com/settings/keys) and [GitLab](https://gitlab.com/profile/keys)
 
