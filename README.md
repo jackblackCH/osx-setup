@@ -23,7 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Tools ans Applications
 ```
-brew install git tmux reattach-to-user-namespace node
+brew install git neovim tmux node
 brew install brave-browser alfred firefox slack visual-studio-code figma iterm2 telegram --cask
 ```
 
