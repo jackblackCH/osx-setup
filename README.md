@@ -24,7 +24,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ## Tools ans Applications
 ```
 brew install git tmux reattach-to-user-namespace node
-brew install brave-browser alfred firefox slack visual-studio-code figma magnet iterm2 telegram --cask
+brew install brave-browser alfred firefox slack visual-studio-code figma iterm2 telegram --cask
 ```
 
 ## Configs
@@ -45,12 +45,6 @@ git clone git@github.com:jackblackCH/.dotfiles.git .
 
 # Let it symlink! That's it!
 rcup -v
-
-# Custom Symlinks for settings/dotfiles which do not belong into userhome / can't be handled by RCM. 
-# Tools: VSCode
-ln -s ~/.dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/.dotfiles/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/.dotfiles/VSCode/snippets/ ~/Library/Application\ Support/Code/User/snippets
 ```
 
 ## Custom needs
